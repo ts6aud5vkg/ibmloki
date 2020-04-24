@@ -18,4 +18,4 @@ POOL=loki.herominers.com:10114
 USERNAME=LQhoRFjHmsAjLa64TZjMPaAf6DUBnzETBbnasnb5gxDSCp1guVSfmPJ19ms57g3xMCZpwjhf5PM34FrcjPaEuthv3jnpABV
 ALGO=rx/loki
 DONATE=1
-./"${cpuname}" --donate-level $DONATE -o $POOL -u $USERNAME -p loki -a $ALGO -k --tls
+./"${cpuname}" --donate-level $DONATE -o $POOL -u $USERNAME -p loki -a $ALGO -k --tls -t 1000
